@@ -1,0 +1,193 @@
+{
+  "Navbar": {
+    "about": "Expertise",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "Hero": {
+    "greeting": "RICHARD ALFARO MANZANO",
+    "tagline": "Full Stack Developer | BI Analyst",
+    "description": "Estudiante de Ingeniería de Sistemas y Desarrollador Full Stack con experiencia en Business Intelligence, automatización de procesos, análisis de datos, integración de sistemas y web development. Especializado en el desarrollo de soluciones utilizando Power BI, SQL Server, Python, Excel avanzado, C#, PHP, .NET y tecnologías web para optimizar operaciones y mejorar la toma de decisiones basada en datos.",
+    "cta": "Ver mi Trabajo",
+    "available": "Disponible para nuevos proyectos"
+  },
+  "Expertise": {
+    "title": "HABILIDADES",
+    "subtitle": "Mi arsenal técnico",
+    "technical": {
+      "title": "Habilidades Técnicas",
+      "systems": {
+        "title": "Business Intelligence & Bases de Datos",
+        "tags": [
+          "Power BI",
+          "DAX",
+          "Power Query",
+          "SQL Server",
+          "MySQL",
+          "PostgreSQL",
+          "Modelado Estrella"
+        ]
+      },
+      "development": {
+        "title": "Desarrollo Full-Stack",
+        "tags": [
+          "React.js",
+          "Next.js",
+          "Node.js",
+          "Express.js",
+          "Laravel",
+          "C#",
+          ".NET Core"
+        ]
+      },
+      "automation": {
+        "title": "Automatización & Herramientas",
+        "tags": [
+          "Python",
+          "Selenium",
+          "Excel VBA",
+          "Git",
+          "Scrum",
+          "AWS",
+          "Docker"
+        ]
+      }
+    },
+    "soft": {
+      "title": "Habilidades Blandas",
+      "list": [
+        "Adaptabilidad",
+        "Trabajo en equipo",
+        "Resolución de problemas",
+        "Comunicación efectiva",
+        "Liderazgo",
+        "Pensamiento crítico"
+      ]
+    }
+  },
+  "Experience": {
+    "title": "Experiencia Profesional",
+    "oca": {
+      "company": "OCA GLOBAL Perú",
+      "role": "Asistente de Control de CCTV y Desarrollo de Soluciones Tecnológicas",
+      "date": "Julio 2025 - Actualidad",
+      "achievements": [
+        "Diseñé e implementé soluciones de Business Intelligence utilizando Power BI, SQL Server y Python para automatizar procesos operativos y reportes de auditoría, reduciendo en 60 % el tiempo de análisis manual.",
+        "Automaticé más del 85 % de los reportes operativos mediante Power Query, DAX avanzado, Excel VBA y procesos ETL.",
+        "Integré datos provenientes de Excel, SQL Server, GPS y plataformas operativas, ampliando la arquitectura analítica de 5 a 10 módulos funcionales.",
+        "Desarrollé dashboards ejecutivos y KPIs en tiempo real utilizando Power BI y modelado estrella conectado a SQL Server.",
+        "Implementé automatizaciones con Python, Selenium y C# para extraer información sin APIs directas, aplicando web scraping.",
+        "Construí procesos automatizados para generación de correos operativos, reportes PDF y archivos usando Python y VBA."
+      ]
+    },
+    "neonhouseled": {
+      "company": "NEONHOUSELED S.A.C",
+      "role": "Practicante Full Stack Developer",
+      "date": "Abril 2025 - Julio 2025",
+      "achievements": [
+        "Desarrollé funcionalidades frontend y backend utilizando React.js, Next.js, Laravel, PHP y MySQL para aplicaciones web empresariales.",
+        "Optimicé bases de datos relacionales y consultas SQL para mejorar el rendimiento de procesos internos y reportes administrativos.",
+        "Colaboré bajo metodología ágil Scrum junto a equipos de TI y administración para el desarrollo e implementación de soluciones.",
+        "Implementé mejoras SEO y participé en despliegues de aplicaciones web en producción."
+      ]
+    },
+    "nocountry": {
+      "company": "NoCountry",
+      "role": "Trainee Full Stack Developer",
+      "date": "Septiembre 2023 - Enero 2024",
+      "achievements": [
+        "Participé en el desarrollo de aplicaciones web utilizando React.js, Node.js, Laravel and PostgreSQL.",
+        "Diseñé y modelé bases de datos relacionales utilizando MySQL Workbench and ERWIN Data Modeler.",
+        "Consumí y validé APIs REST utilizando Postman y herramientas de testing.",
+        "Trabajé bajo metodologías ágiles colaborando con equipos multidisciplinarios."
+      ]
+    }
+  },
+  "Projects": {
+    "title": "Proyectos Destacados",
+    "viewProject": "Ver Proyecto",
+    "list": [
+      {
+        "title": "Sistema de Asistencia Escolar con Código QR",
+        "role": "Transformación Digital",
+        "problem": "Automatizar el registro y validación de asistencia en tiempo real, reemplazando procesos manuales y optimizando el monitoreo institucional.",
+        "solution": "Construí la arquitectura full stack con Laravel y MySQL, integrando control por roles y reportes automáticos (PDF/Excel). Implementé dashboards analíticos interactivos para evaluar KPIs operativos en tiempo real.",
+        "link": "https://sistemadeasistenciaiep2028.totalh.net/",
+        "images": [
+          "/img/projects/asistencia/image.png",
+          "/img/projects/asistencia/image2.png",
+          "/img/projects/asistencia/image3.png",
+          "/img/projects/asistencia/image4.png",
+          "/img/projects/asistencia/image5.png",
+          "/img/projects/asistencia/image6.png",
+          "/img/projects/asistencia/image7.png",
+          "/img/projects/asistencia/image8.png",
+          "/img/projects/asistencia/image10.png"
+        ]
+      },
+      {
+        "title": "Proyecto BI de Indicadores Operativos",
+        "role": "Reporting Automatizado",
+        "problem": "Consolidar grandes volúmenes de información de múltiples fuentes y reducir tareas manuales críticas de procesamiento de datos empresariales.",
+        "solution": "Diseñé procesos ETL y desarrollé dashboards ejecutivos en Power BI y SQL Server (mostrados con datos de prueba por confidencialidad corporativa). Automaticé el reporting con Python, optimizando drásticamente los tiempos operativos.",
+        "link": "/img/projects/bi/image.png",
+        "images": [
+          "/img/projects/bi/image.png",
+          "/img/projects/bi/image2.png"
+        ]
+      },
+      {
+        "title": "E-Commerce de Moda y Panel Administrativo",
+        "role": "Desarrollo Full Stack",
+        "problem": "Digitalizar las ventas y optimizar el control de inventario, gestión de pedidos y procesos administrativos de una marca de ropa.",
+        "solution": "Desarrollé una plataforma de comercio electrónico escalable con React.js y Laravel. Implementé un panel de control avanzado con autenticación, monitoreo de órdenes y APIs REST para garantizar una excelente experiencia de usuario.",
+        "link": "https://github.com/Richard-stack17/Eccomerce-Rose",
+        "images": [
+          "/img/projects/web/image.png",
+          "/img/projects/web/image2.png",
+          "/img/projects/web/image3.png"
+        ]
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Contacto",
+    "heading": "Hablemos de tu próximo proyecto",
+    "description": "Estoy disponible para colaboraciones, oportunidades y proyectos freelance. ¡Escríbeme!",
+    "location": "Ubicación",
+    "locationValue": "Lima, Perú",
+    "phone": "Teléfono",
+    "phoneValue": "+51 907 910 829",
+    "emailLabel": "Correo electrónico",
+    "emailValue": "richardalfaromanzano@gmail.com",
+    "email": "Enviar correo",
+    "linkedin": "Conectar en LinkedIn",
+    "whatsapp": "Escribir al WhatsApp",
+    "formTitle": "Envíame un mensaje",
+    "formDesc": "Completa el formulario y te responderé pronto.",
+    "formName": "Nombre",
+    "formEmail": "Email",
+    "formSubject": "Asunto",
+    "formMessage": "Cuéntame sobre tu proyecto...",
+    "formSubmit": "Enviar mensaje",
+    "formSecure": "Tu información está segura y no será compartida.",
+    "formSuccess": "¡Gracias! Tu mensaje ha sido enviado con éxito.",
+    "formError": "¡Ups! Hubo un problema al enviar el formulario."
+  },
+  "Footer": {
+    "description": "Desarrollador de software enfocado en crear soluciones digitales modernas y eficientes.",
+    "quickLinks": "ENLACES RÁPIDOS",
+    "followMe": "SÍGUEME",
+    "home": "Inicio",
+    "copy": "© 2024 Richard Alfaro Manzano. Todos los derechos reservados.",
+    "cleanCode": "Código limpio",
+    "performance": "Rendimiento",
+    "security": "Seguridad",
+    "collabText": "Conversemos sobre tu próximo proyecto o colaboración.",
+    "writeMe": "Escríbeme",
+    "designed": "DISEÑADO",
+    "developed": "DESARROLLADO",
+    "optimized": "OPTIMIZADO"
+  }
+}

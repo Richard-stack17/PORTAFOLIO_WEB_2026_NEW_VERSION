@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://kit.fontawesome.com/a152c0e72a.js" crossorigin="anonymous"></script>
+  <title>Portafolio</title>
+  <link rel="icon" href="/assets/img/brief.png">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/dist/output.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar grid--container">
+      <a class="navbar__logo" href="#home"><i class="fa-solid fa-house"></i></a>
+
+      <div class="navbar__menu">
+        <i class='bx bx-x btn__close navbar__icon'></i>
+
+        <ul class="navbar__list">
+          <li class="navbar__item"><a class="navbar__link" href="#about">About me</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#projects">Briefcase</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#studies">Studies</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <i class='bx bx-menu btn__open navbar__icon'></i>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="home" class="home">
+      <div class="home__container grid--container">
+        <div class="home__image">
+          <span></span>
+          <img class='me'src="/assets/img/fotoMine.jpg" alt="profile photo">
+        </div>
+
+        <ul class="home__social">
+          <li class="home__social-item"><a class="home__social-link" href="https://www.linkedin.com/in/richard-alfaro-bb0a4824a/" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
+          <li class="home__social-item"><a class="home__social-link" href="https://api.whatsapp.com/send?phone=928986849" target="_blank"><i class='bx bxl-whatsapp'></i></a></li>
+          <li class="home__social-item"><a class="home__social-link" href="https://www.facebook.com/riichard.aam" target="_blank"><i class='bx bxl-facebook'></i></a></li>
+        </ul>
+
+        <div class="home__info">
+          <h1 class="home__title">Hey, I'm</h1>
+          <h1 class="h1"><strong>Richard Alfaro</strong></h1>
+          <p class="home__description">
+            Frontend Developer and System Engenieer student with passion for technology and programming
+          </p>
+        </div>
+
+        <div class="home__buttons">
+          <a class='btn btn--primary' href="https://docs.google.com/document/d/1GL70dZu5DWg9omeQNhFEHWVQxYduC_I7mw389LVRyRA/edit?usp=sharing" target="_blank" class="btn btn--primary btn__a" type="button">Look resume</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <h2 class="section__title">About me</h2>
+
+      <div class="about__container grid--container">
+        <p class="about__description">
+          Frontend Developer and System Engenieer student with passion for technology and programming, I love everything related to technology, I am constantly studying the latest technological trends.
+        </p>
+        <p class="justify_center mb-10">
+          I have experience using: 
+          Javascript, HTMl, CSS, React, Git, Github, SQL server, Node.js, Sequelize, Redux, Express, Postman, Next.js, MongoDB, PostgreSQL, Tailwind
+        </p>
+
+        <div class="about__skills grid--container">
+          <div class="about__cards flex flex-wrap lg:max-h-[400px]">
+            <!--Card 1 -->
+            <div class="about__card w-[150px]">
+              <i class='bx bxl-html5'></i>
+
+              <h3 class="about__card-title">HTML5</h3>
+    
+            </div>
+            <!--Card 2 -->
+            <div class="about__card w-[150px]">
+              <i class='bx bxl-css3'></i>
+
+              <h3 class="about__card-title">CSS3</h3>
+            </div>
+            <!--Card 3 -->
+            <div class="about__card w-[150px]">
+              <i class='bx bxl-javascript'></i>
+
+              <h3 class="about__card-title">JavaScript</h3>
+            </div>
+            <div class="about__card w-[150px]">
+              <i class='bx bxl-react'></i>
+
+              <h3 class="about__card-title">React</h3>
+            </div>
+            <div class="about__card w-[150px]">
+              <i class='bx bxl-nodejs'></i>
+
+              <h3 class="about__card-title">Node.js</h3>
+            </div>
+            <div class="about__card w-[150px]">
+              <i class='bx bxl-postgresql'></i>
+
+              <h3 class="about__card-title">PgSQL</h3>
+            </div>
+            <div class="about__card w-[150px]">
+              <i class='bx bxl-tailwind-css'></i>
+
+              <h3 class="about__card-title">Tailwind</h3>
+            </div>
+            <div class="about__card w-[150px]">
+              <i class='bx bxl-typescript'></i>
+
+              <h3 class="about__card-title">Typescript</h3>
+            </div>
+          </div>
+
+          <div class="about__tags mt-10 lg:mt-0">
+            <h3 class="about__tags-title">Habilidades</h3>
+            <div class="about__tags-container">
+              <span class="about__tag">Responsable</span>
+              <span class="about__tag">Trabajo en equipo</span>
+              <span class="about__tag">Creativo</span>
+              <span class="about__tag">Puntual</span>
+              <span class="about__tag">Proactivo</span>
+              <span class="about__tag">Autodidacta</span>
+              <div>
+                <img class='w-full h-full'src="/assets/img/animado.png"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="projects" class="projects section">
+      <h2 class="section__title">Proyects</h2>
+      
+      <div class="projects__container grid--container">
+        <h4 class="bg-[#1b1d49cc] text-[#f9fbfdda] drop-shadow-2xl shadow-black shadow-sm text-[1.6rem] text-center rounded-3xl">Frontend</h4>
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image odd">
+              <img  src="/assets/img/project1.jpg" alt="project 1">
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Proyect 1</h3>
+              <p class="projects__description">
+                Project using the Pokemon API, it has 3 pages, an initial menu, search menu, information menu for each pokemon.
+                I used <b>React, HTML, JavaScript, CSS</b>
+              </p>
+
+              <div class="projects__buttons">
+                <a class="btn projects__button" type="button" href="https://incomparable-monstera-9419db.netlify.app/" target="_blank">go to the website</a>
+              </div>
+              <a class="btn_git" target="_blank" href="https://github.com/Richard-stack17/Pokedex"><i class="fa-brands fa-github"></i></a>
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image even">
+              <img src="/assets/img/project2.jpg" alt="project 2">
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Proyect 2</h3>
+              <p class="projects__description">
+                Project carried out with teamwork during Academlo, I used <b>Next.js, Tailwind, Typescript, JavaScript, SWR, Axios, Postman</b>
+                I consumed an API with axios, also I used Postman and Swagger for reading the API documentation
+              </p>
+
+              <div class="projects__buttons">
+                <a class="btn projects__button" type="button" href="https://reliable-beijinho-4a7f86.netlify.app/" target="_blank">go to the website</a>
+              </div>
+              <a class="btn_git" target="_blank" href="https://github.com/Richard-stack17/PROJECT-NEXT"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image odd">
+              <img src="/assets/img/project3.jpg" alt="project 3">
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Proyect 3</h3>
+              <p class="projects__description">
+                It is an ecommerce for the sale of products made with <b>React, HTML, CSS and Javascript</b>.
+              </p>
+
+              <div class="projects__buttons">
+                <a class="btn projects__button" type="button" href="https://cozy-travesseiro-495483.netlify.app/" target="_blank">go to the website</a>
+              </div>
+              <a class="btn_git" target="_blank" href="https://github.com/Richard-stack17/Ecommerce"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image even">
+              <img src="/assets/img/project4.jpg" alt="project 4">
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Proyect 4</h3>
+              <p class="projects__description">
+                An application consuming the 'Weather' API, gives information regarding the weather according to the user's location.
+              </p>
+              <div class="projects__buttons">
+                <a class="btn projects__button" type="button" href="https://sweet-lamington-cdee51.netlify.app/" target="_blank">go to the website</a>
+              </div>
+              <a class="btn_git" target="_blank" href="https://github.com/Richard-stack17/third-project-react"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image even">
+              <img src="/assets/img/project5.jpg" alt="project 5">
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Proyect 5</h3>
+              <p class="projects__description">
+                Application using React, it is an API of the Rick and Morty series, it indicates information about the inhabitants of each location related to the indicated series.
+              </p>
+              <div class="projects__buttons">
+                <a class="btn projects__button" type="button" href="https://incandescent-bienenstitch-1f0bc5.netlify.app/" target="_blank">go to the website</a>
+              </div>
+              <a class="btn_git" target="_blank" href="https://github.com/Richard-stack17/RickMorty"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+
+          <div class="mt-2">
+            <h4 class="bg-[#1b1d49cc] text-[#f9fbfdda] drop-shadow-2xl shadow-black shadow-sm text-[1.6rem] text-center rounded-3xl my-20">Backend Projects</h4>
+              <div class="flex flex-col sm:flex-row gap-10"> 
+                <div class="backend_project border-[3px] border-blue-950 rounded-[50px] ">
+                    <section class="rounded-[50px] bg-slate-600 z-5 max-h-[200px]" >
+                      <h5 class="text-center text-white text-2xl">Project repairs</h5>
+                      <img src="/assets/img/backend_repairs.jpg" class="w-full h-[175px] object-cover">
+                    </section>
+                    <section class="p-5 bg-white rounded-b-[50px]">
+                      <p class="description_backend">You can obtain, create, update, modify, delete one or more repairs in a motorcycle repair system, you can also obtain information from your customers. <b class="text-[#393c3c]">I used Node.js, Express, Javascript, JWT, PostgreSQL, Sequelize, and Postman.</b></p>
+                      <div class="links_backend text-center">
+                        <a class="btn_git" target="_blank" href="https://github.com/Richard-stack17/API-MOTORCYCLE"><i class="fa-brands fa-github"></i></a>
+                    
+                      </div>
+                    </section>
+                </div>
+                <div class="backend_project border-[3px] border-blue-950 rounded-[50px] ">
+                  <section class="rounded-[50px] bg-slate-600 z-5 max-h-[200px]" >
+                    <h5 class="text-center text-white text-2xl">Project meals</h5>
+                    <img src="/assets/img/backend_meals.jpg" class="w-full h-[175px] object-cover">
+                  </section>
+                  <section class="p-5 bg-white rounded-b-[50px]">
+                    <p class="description_backend">4 entities are defined: meal, order, restaurant and client, you can get information, register, update, delete according to the entity you want to perform the action. <b class="text-[#393c3c]">I used Node.js, Express, Javascript, JWT, PostgreSQL, Sequelize, and Postman.</b></p>
+                    <div class="links_backend text-center">
+                      <a class="btn_git" target="_blank" href="https://github.com/Richard-stack17/MEALS"><i class="fa-brands fa-github"></i></a>
+                  
+                    </div>
+                  </section>
+                </div>
+                <div class="backend_project border-[3px] border-blue-950 rounded-[50px] ">
+                  <section class="rounded-[50px] bg-slate-600 z-5 max-h-[200px]" >
+                    <h5 class="text-center text-white text-2xl">Project Bank</h5>
+                    <img src="/assets/img/backend_bank.jpg" class="w-full h-[175px] object-cover">
+                  </section>
+                  <section class="p-5 bg-white rounded-b-[50px]">
+                    <p class="description_backend">It's a bank system that was one of my first projects in Node.js, You can register a client, log in, and make transfers between clients. <b class="text-[#393c3c]">I used Node.js, Express, Javascript, JWT, PostgreSQL, Sequelize, and Postman here in my project.</b></p>
+                    <div class="links_backend text-center">
+                      <a class="btn_git" target="_blank" href="https://github.com/Richard-stack17/API-BANK"><i class="fa-brands fa-github"></i></a>
+                  
+                    </div>
+                  </section>
+                </div>
+           </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <section id='studies' class='section studies'>
+      <h2 class="section__title">Studies</h2>
+      <h3 class="section__subtitle">I have studies in:</h3></p>
+      <div class="grid__container">
+        <div class="studies__grid">
+          <div class="grid__img">
+              <img class='img ing'src="https://cdn0.iconfinder.com/data/icons/fillicons-information-technology/1550/programmer_software_developer-512.png" alt="ing img">
+          </div>
+          <div class="grid__info"> 
+              <p><h4 class="studies__career"><i class="fa-sharp fa-solid fa-chevron-down"></i>  SYSTEM ENGINEERING</h4></p>
+              <p class="studies__center"><i class="fa-solid fa-building-columns"></i> National University of Callao</p>
+              <p class="number"><i class="fa-sharp fa-solid fa-chevron-right"></i>  (SEP 2021-PRESENT)</p>
+          </div>
+        </div>
+        <div class="studies__grid">
+            <div class="grid__img">
+                <img class='img comp'src="https://cdn-icons-png.flaticon.com/512/297/297432.png" alt="comp img">
+            </div>    
+            <div class="grid__info">
+                <h4 class="studies__career"><i class="fa-sharp fa-solid fa-chevron-down"></i>  COMPUTING AND INFORMATION</h4>
+                <p class='studies__center' ><i class="fa-solid fa-building-columns"></i> Carlos Cueto Fernandini Institute of Technology</p>
+                <p class="number"><i class="fa-sharp fa-solid fa-chevron-right"></i>  (ABR 2021- JUL 2021)</p>
+            </div>
+        </div>
+        <div class="studies__grid"> 
+            <div class="grid__img">
+                <img class='img fullS'src="/assets/img/academla.png" alt="fullS img">
+            </div>
+            <div class="grid__info">
+                <h4 class="studies__career"><i class="fa-sharp fa-solid fa-chevron-down"></i>  FULLSTACK DEVELOPER</h4>
+                <p class='studies__center' ><i class="fa-solid fa-building-columns"></i> Academlo School of Technology and Computer</p>
+                <p class="number"><i class="fa-sharp fa-solid fa-chevron-right"></i>  (2022- 2023)</p>
+        </div>
+      </div>
+      </div>
+     
+  </section>
+  <section id="contact" class="contact section">
+    <h2 class="section__title">Contact</h2>
+
+    <div class="contact__container grid--container">
+      <div class="contact__info">
+        <h3 class="contact__info-title">Contact information</h3>
+        <p class="contact__info-description">
+          Here you can communicate with me
+        </p>
+
+        <address class="contatc__info-data">
+          <div class="contact__info-item">
+            <i class='bx bx-phone'></i>
+
+            <span class="contact__info-nomber">
+              +51 928986849
+            </span>
+          </div>
+
+          <div class="contact__info-item">
+            <i class='bx bxs-envelope'></i>
+
+            <span class="contact__info-mail">
+              <a href="mailto:test@correo.com">
+                richardalfaromanzano@gmail.com
+              </a>
+            </span>
+          </div>
+
+          <div class="contact__info-item">
+            <i class='bx bx-map'></i>
+
+            <span class="contact__info-map">
+              Lima, Perú.
+            </span>
+          </div>
+        </address>
+      </div>
+
+      <div class="contact__form">
+        <h3 class="contact__form-title">Send a message</h3>
+
+        <form id="form" class="contact__form-container">
+
+          <div class="contact__form-group">
+            <label for="name" class="contact__form-label">Name</label>
+            <input type="text" id="name" class="contact__form-input">
+          </div>
+
+          <div class="contact__form-group">
+            <label for="email" class="contact__form-label">Email</label>
+            <input type="email" id="email" class="contact__form-input">
+          </div>
+
+          <div class="contact__form-group">
+            <label for="message" class="contact__form-label">Message</label>
+            <textarea id="message" cols="30" rows="10" class="contact__form-input"></textarea>
+          </div>
+
+          <button type="submit" class="btn contact__form-button">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  </main>
+
+  <footer class="footer section">
+    <div class="footer__container grid--container">
+      <div class="footer__info">
+        <h3 class="footer__title">Richard Alfaro</h3>
+        <p class="footer__description">
+          I'm Frontend Developer, I love everything related with computing and design web.
+        </p>
+      </div>
+
+      <div class="footer__social">
+        <h3 class="footer__title">Social Media</h3>
+
+        <ul class="footer__socail-list">
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#"><i class='bx bxl-facebook'></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#"><i class='bx bxl-instagram'></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#"><i class='bx bxl-twitter'></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#"><i class='bx bxl-linkedin'></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer__copy">
+      © Copyright , 2022    
+    </p>
+  </footer>
+  <script src="/assets/js/index.js"></script>
+  <script>
+    const btnMenu = document.querySelector('.btn__open')
+    const btnClose = document.querySelector('.btn__close')
+    const Menu = document.querySelector('.navbar__menu')
+
+
+    btnMenu.onclick = function () {
+      Menu.classList.add('show--menu')
+    }
+
+    btnClose.onclick = function () {
+      Menu.classList.remove('show--menu')
+    }
+  </script>
+
+</body>
+
+</html>

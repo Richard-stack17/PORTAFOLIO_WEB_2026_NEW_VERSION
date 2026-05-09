@@ -1,0 +1,193 @@
+{
+  "Navbar": {
+    "about": "Expertise",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "greeting": "RICHARD ALFARO MANZANO",
+    "tagline": "Full Stack Developer | BI Analyst",
+    "description": "Systems Engineering student and Full Stack Developer with experience in Business Intelligence, process automation, data analytics, and web development. Specialized in building solutions using Power BI, SQL Server, Python, Advanced Excel, C#, PHP, .NET, and web technologies to optimize operations and drive data-driven decisions.",
+    "cta": "View My Work",
+    "available": "Available for new projects"
+  },
+  "Expertise": {
+    "title": "SKILLS",
+    "subtitle": "My Technical Arsenal",
+    "technical": {
+      "title": "Technical Skills",
+      "systems": {
+        "title": "BI & Databases",
+        "tags": [
+          "Power BI",
+          "DAX",
+          "Power Query",
+          "SQL Server",
+          "MySQL",
+          "PostgreSQL",
+          "Star Schema"
+        ]
+      },
+      "development": {
+        "title": "Full-Stack Development",
+        "tags": [
+          "React.js",
+          "Next.js",
+          "Node.js",
+          "Express.js",
+          "Laravel",
+          "C#",
+          ".NET Core"
+        ]
+      },
+      "automation": {
+        "title": "Automation & Tools",
+        "tags": [
+          "Python",
+          "Selenium",
+          "Excel VBA",
+          "Git",
+          "Scrum",
+          "AWS",
+          "Docker"
+        ]
+      }
+    },
+    "soft": {
+      "title": "Soft Skills",
+      "list": [
+        "Adaptability",
+        "Teamwork",
+        "Problem Solving",
+        "Effective Communication",
+        "Leadership",
+        "Critical Thinking"
+      ]
+    }
+  },
+  "Experience": {
+    "title": "Professional Experience",
+    "oca": {
+      "company": "OCA GLOBAL Perú",
+      "role": "CCTV Control Assistant & Tech Solutions Developer",
+      "date": "July 2025 - Present",
+      "achievements": [
+        "Designed and implemented BI solutions using Power BI, SQL Server, and Python to automate operational workflows and audit reports, reducing manual analysis time by 60%.",
+        "Automated over 85% of operational reports using Power Query, advanced DAX, Excel VBA, and ETL processes.",
+        "Integrated data from Excel, SQL Server, GPS, and operational platforms, expanding the analytical architecture from 5 to 10 functional modules.",
+        "Developed executive dashboards and real-time KPIs using Power BI and a star schema modeled in SQL Server.",
+        "Implemented automations with Python, Selenium, and C# to extract data without direct APIs, utilizing web scraping.",
+        "Built automated processes for generating operational emails, PDF reports, and Excel files using Python and VBA."
+      ]
+    },
+    "neonhouseled": {
+      "company": "NEONHOUSELED S.A.C",
+      "role": "Full Stack Developer Intern",
+      "date": "April 2025 - July 2025",
+      "achievements": [
+        "Developed frontend and backend features using React.js, Next.js, Laravel, PHP, and MySQL for enterprise web applications.",
+        "Optimized relational databases and SQL queries to improve the performance of internal processes and administrative reports.",
+        "Collaborated under agile Scrum methodology with IT and administration teams to develop and deploy solutions.",
+        "Implemented SEO improvements and participated in production web application deployments."
+      ]
+    },
+    "nocountry": {
+      "company": "NoCountry",
+      "role": "Trainee Full Stack Developer",
+      "date": "September 2023 - January 2024",
+      "achievements": [
+        "Participated in the development of web applications using React.js, Node.js, Laravel, and PostgreSQL.",
+        "Designed and modeled relational databases using MySQL Workbench and ERWIN Data Modeler.",
+        "Consumed and validated REST APIs using Postman and testing tools.",
+        "Worked under agile methodologies collaborating with multidisciplinary teams."
+      ]
+    }
+  },
+  "Projects": {
+    "title": "Featured Projects",
+    "viewProject": "View Project",
+    "list": [
+      {
+        "title": "QR Code School Attendance System",
+        "role": "Digital Transformation",
+        "problem": "Automating real-time attendance registration and validation, replacing manual processes and optimizing institutional monitoring.",
+        "solution": "Built a full-stack architecture with Laravel and MySQL, integrating role-based access and automated reporting (PDF/Excel). Implemented interactive analytical dashboards to evaluate operational KPIs in real time.",
+        "link": "https://sistemadeasistenciaiep2028.totalh.net/",
+        "images": [
+          "/img/projects/asistencia/image.png",
+          "/img/projects/asistencia/image2.png",
+          "/img/projects/asistencia/image3.png",
+          "/img/projects/asistencia/image4.png",
+          "/img/projects/asistencia/image5.png",
+          "/img/projects/asistencia/image6.png",
+          "/img/projects/asistencia/image7.png",
+          "/img/projects/asistencia/image8.png",
+          "/img/projects/asistencia/image10.png"
+        ]
+      },
+      {
+        "title": "Operational KPIs and Reporting BI Project",
+        "role": "Automated Reporting",
+        "problem": "Consolidating large volumes of data from multiple sources and reducing critical manual tasks in business data processing.",
+        "solution": "Designed ETL processes and developed executive dashboards in Power BI and SQL Server (shown with dummy data for corporate confidentiality). Automated reporting with Python, drastically optimizing operational times.",
+        "link": "/img/projects/bi/image.png",
+        "images": [
+          "/img/projects/bi/image.png",
+          "/img/projects/bi/image2.png"
+        ]
+      },
+      {
+        "title": "Fashion E-Commerce & Admin Dashboard",
+        "role": "Full Stack Development",
+        "problem": "Digitalizing sales and optimizing inventory control, order management, and administrative processes for a clothing brand.",
+        "solution": "Developed a scalable e-commerce platform with React.js and Laravel. Implemented an advanced admin panel with authentication, order monitoring, and REST APIs to ensure an excellent user experience.",
+        "link": "https://github.com/Richard-stack17/Eccomerce-Rose",
+        "images": [
+          "/img/projects/web/image.png",
+          "/img/projects/web/image2.png",
+          "/img/projects/web/image3.png"
+        ]
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Contact",
+    "heading": "Let's talk about your next project",
+    "description": "I am available for collaborations, opportunities, and freelance projects. Reach out!",
+    "location": "Location",
+    "locationValue": "Lima, Peru",
+    "phone": "Phone",
+    "phoneValue": "+51 907 910 829",
+    "emailLabel": "Email address",
+    "emailValue": "richardalfaromanzano@gmail.com",
+    "email": "Email me",
+    "linkedin": "Connect on LinkedIn",
+    "whatsapp": "Message on WhatsApp",
+    "formTitle": "Send me a message",
+    "formDesc": "Fill out the form and I'll get back to you soon.",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formSubject": "Subject",
+    "formMessage": "Tell me about your project...",
+    "formSubmit": "Send message",
+    "formSecure": "Your information is secure and will not be shared.",
+    "formSuccess": "Thanks! Your message has been sent successfully.",
+    "formError": "Oops! There was a problem submitting your form."
+  },
+  "Footer": {
+    "description": "Software developer focused on creating modern and efficient digital solutions.",
+    "quickLinks": "QUICK LINKS",
+    "followMe": "FOLLOW ME",
+    "home": "Home",
+    "copy": "© 2024 Richard Alfaro Manzano. All rights reserved.",
+    "cleanCode": "Clean Code",
+    "performance": "Performance",
+    "security": "Security",
+    "collabText": "Let's talk about your next project or collaboration.",
+    "writeMe": "Write me",
+    "designed": "DESIGNED",
+    "developed": "DEVELOPED",
+    "optimized": "OPTIMIZED"
+  }
+}
