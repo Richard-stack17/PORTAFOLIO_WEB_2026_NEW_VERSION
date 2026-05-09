@@ -52,3 +52,4 @@ Optimized for serverless deployment environments like Vercel.
 ## License
 
 © 2024 Richard Alfaro Manzano. All rights reserved.
+ 
